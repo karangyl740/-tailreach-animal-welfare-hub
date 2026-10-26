@@ -55,7 +55,7 @@ const pad = n => String(n).padStart(2, '0');
 const fill = (sel, items, template) => { $(sel).innerHTML = items.map(template).join(''); };
 const DOT = Object.fromEntries(CATEGORIES.map(c => [c.name, c.dot]));
 const byId = new Map(CAMPAIGNS.map(c => [c.id, c]));
-for (const c of CAMPAIGNS) c.haystack = [c.title, c.category, c.blurb, c.goal].join(' ').toLowerCase();
+for (const c of CAMPAIGNS) c.haystack = [c.title, c.category, c.blurb, c.goal,c.activity].join(' ').toLowerCase();
 
 const grid = $('#campaignGrid'), searchInput = $('#campaignSearch'), resultsStatus = $('#resultsStatus');
 const emptyState = $('#emptyState'), campaignDialog = $('#campaignDialog'), volunteerDialog = $('#volunteerDialog');
