@@ -1,7 +1,7 @@
 
 ## Live Demo
 
-[Open TailReach Website](PASTE_YOUR_ACTUAL_GITHUB_PAGES_URL_HERE)
+[Open TailReach Website] https://karangyl740.github.io/-tailreach-animal-welfare-hub/
 
 ## Tech Stack
 
