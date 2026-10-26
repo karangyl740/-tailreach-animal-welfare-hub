@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#173f35" />
+  <meta name="description" content="TailReach is an independent demo campaign and volunteer hub concept for animal welfare awareness." />
+  <title>TailReach — Care travels farther together</title>
+  <link rel="icon" href="assets/paw.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="TailReach — Care travels farther together" />
+  <meta property="og:description" content="An independent demo campaign and volunteer hub concept for animal welfare awareness." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body id="top">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="icon-paw" viewBox="0 0 48 48"><path d="M15.5 19.5c-3.8-1.6-6.8-5.8-5.5-9.1 1.1-2.9 4.5-3.4 6.7-.4 1.5 2 2.4 5.9 1.3 8.2M26.3 16.8c-1.7-3.7-.6-8.8 2.6-10 2.8-1 5.2 1.2 4.2 4.8-.7 2.5-3.2 5.6-5.7 6.1M35.7 24c2.5-3.2 7.4-4.5 9.6-1.9 1.9 2.2.7 5.4-3 5.8-2.6.3-6.4-1.1-7.9-3.3M9.7 27.1c-4.1.1-8.1-3.1-7.4-6.5.6-3 4-4 6.8-1.5 1.9 1.7 3.7 5.2 2.9 7.7M24 21.2c-7.5 0-13.2 5.5-13.2 12.2 0 6.2 5.8 10.4 13.2 10.4s13.2-4.2 13.2-10.4C37.2 26.7 31.5 21.2 24 21.2Z" fill="currentColor"/></symbol></svg>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="demo-ribbon"><span class="demo-dot"></span> Independent portfolio concept · All campaigns and figures are illustrative demo data</div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="TailReach home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><use href="#icon-paw"></use></svg></span>
+      <span class="brand-copy"><strong>tailreach</strong><small>care travels farther</small></span>
+    </a>
+    <button type="button" class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primaryNav"><span></span><span></span></button>
+    <nav id="primaryNav" class="nav-links" aria-label="Main navigation">
+      <a href="#campaigns">Campaigns</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#impact">Our approach</a>
+      <button type="button" class="button button-small button-dark" data-open-volunteer>Volunteer <span aria-hidden="true">↗</span></button>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> EVERY SMALL ACT ADDS UP</div>
+        <h1>Make room<br />for <span>more good.</span></h1>
+        <p class="hero-lede">A clearer way to discover animal-welfare drives, follow campaign updates, and find a small action that fits your day.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#campaigns">Explore campaigns <span aria-hidden="true">↘</span></a>
+          <button type="button" class="button button-quiet" data-open-volunteer>Find your way to help <span aria-hidden="true">→</span></button>
+        </div>
+        <div class="hero-proof"><div class="avatar-stack" aria-hidden="true"><span>🐾</span><span>♥</span><span>✳</span></div><span>Built around action, clarity, and community</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-image-frame"><img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1100&q=85" alt="Golden retriever looking toward the camera" fetchpriority="high" decoding="async" /></div>
+        <div class="floating-note note-top"><span class="note-icon">✳</span><span><strong>Small act, real care</strong><small>Explore a drive near you</small></span></div>
+        <div class="floating-note note-bottom"><span class="note-paw">🐾</span><span><strong>Start where you are</strong><small>Share · Learn · Volunteer</small></span></div>
+        <div class="hero-sun" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" id="trustStrip" aria-label="Project focus"></section>
+
+    <section class="campaign-section section-wrap" id="campaigns">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> FIND YOUR NEXT SMALL ACT</div><h2>Good things are <em>in motion.</em></h2></div>
+        <p>Explore sample campaigns created to demonstrate how an animal-welfare team could present its work clearly and make participation easier.</p>
+      </div>
+      <div class="campaign-toolbar">
+        <div class="filter-group" id="filterGroup" role="group" aria-label="Filter campaigns"></div>
+        <label class="search-wrap"><span class="sr-only">Search campaigns</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.5"></circle><path d="m16 16 4.5 4.5"></path></svg><input id="campaignSearch" type="search" placeholder="Find a campaign" autocomplete="off" /></label>
+      </div>
+      <noscript><p class="results-status">JavaScript is needed to browse the sample campaigns.</p></noscript>
+      <p class="results-status" id="resultsStatus" aria-live="polite">Loading sample campaigns…</p>
+      <div class="campaign-grid" id="campaignGrid"></div>
+      <div id="emptyState" class="empty-state" hidden><span>🐾</span><h3>No campaigns found</h3><p>Try another keyword or select a different category.</p><button type="button" class="button button-outline" id="resetFilters">Reset filters</button></div>
+    </section>
+
+    <section class="how-section" id="how-it-works">
+      <div class="section-wrap how-inner">
+        <div class="how-copy"><div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> HELP SHOULD FEEL POSSIBLE</div><h2>Start small.<br /><em>Keep showing up.</em></h2><p>You don't need to do everything. Find one useful action, understand the campaign, and share it with someone who might care.</p><button type="button" class="button button-cream" data-open-volunteer>Find a way to help <span>↗</span></button></div>
+        <div class="steps-list" id="stepsList"></div>
+      </div>
+    </section>
+
+    <section class="approach-section section-wrap" id="impact">
+      <div class="approach-visual"><img src="https://images.unsplash.com/photo-1601758123927-196b7f5c5d8d?auto=format&fit=crop&w=1000&q=82" alt="A person gently interacting with a dog" loading="lazy" /><div class="visual-caption"><span>CARE IS A COMMUNITY EFFORT</span><span>✳</span></div></div>
+      <div class="approach-copy"><div class="eyebrow"><span class="eyebrow-line"></span> OUR APPROACH</div><h2>Clear information.<br /><em>More thoughtful action.</em></h2><p>Animal-welfare work is easier to support when people can quickly understand what's happening, what's needed, and how to take part.</p><div class="approach-points" id="approachPoints"></div><p class="honesty-note"><strong>Project note:</strong> TailReach is an independent prototype. Campaign names, goals, progress, and updates shown here are fictional sample data—not actual foundation results.</p></div>
+    </section>
+
+    <section class="closing-cta section-wrap"><div class="closing-card"><div class="closing-paw" aria-hidden="true">✳</div><div><div class="eyebrow eyebrow-light">YOUR NEXT STEP CAN BE SMALL</div><h2>There is room for <em>you.</em></h2><p>Tell us what kind of animal-welfare activity you'd like to learn more about.</p></div><button type="button" class="button button-cream" data-open-volunteer>Explore volunteering <span>↗</span></button><div class="closing-decoration" aria-hidden="true">🐾</div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-main"><a class="brand brand-footer" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><use href="#icon-paw"></use></svg></span><span class="brand-copy"><strong>tailreach</strong><small>care travels farther</small></span></a><p>An independent front-end concept for animal-welfare awareness and community participation.</p><a class="footer-top" href="#top">Back to top ↑</a></div><div class="footer-bottom"><span>© 2026 TailReach concept project</span><span>Demo only · Not affiliated with Hope Behind Tails Foundation</span><span>Made with care &amp; clear intent</span></div></footer>
+
+  <dialog id="campaignDialog" class="modal campaign-modal" aria-labelledby="dialogTitle"><button type="button" class="modal-close" data-close aria-label="Close campaign details">×</button><div id="dialogContent"></div></dialog>
+  <dialog id="volunteerDialog" class="modal volunteer-modal" aria-labelledby="volunteerTitle"><button type="button" class="modal-close" data-close aria-label="Close volunteer form">×</button><div class="volunteer-inner"><div class="modal-kicker">A SMALL STEP GOES A LONG WAY</div><h2 id="volunteerTitle">Find your way to <em>help.</em></h2><p class="modal-intro">Choose the kind of animal-welfare activity you'd like to learn more about. This demo form does not transmit or save your information.</p><form id="volunteerForm" novalidate><label for="visitorName">Your name</label><input id="visitorName" name="visitorName" type="text" maxlength="60" placeholder="e.g. Alex" required autocomplete="name" /><span class="field-error" id="nameError"></span><label for="visitorEmail">Email <span class="optional">(demo only)</span></label><input id="visitorEmail" name="visitorEmail" type="email" placeholder="you@example.com" autocomplete="email" /><span class="field-error" id="emailError"></span><label for="interestArea">What interests you most?</label><select id="interestArea" name="interestArea" required><option value="">Choose an activity</option><option>Feeding and clean water</option><option>Animal medical care awareness</option><option>Community awareness</option><option>Helping with campaign content</option><option>I'm still exploring</option></select><span class="field-error" id="interestError"></span><label for="availability">Time you might have</label><select id="availability" name="availability" required><option value="">Choose an option</option><option>A little time each week</option><option>One-off activity</option><option>Flexible / not sure yet</option></select><span class="field-error" id="availabilityError"></span><label class="privacy-check"><input id="privacyDemo" type="checkbox" required /><span>I understand this is a portfolio demo and no application will be sent.</span></label><span class="field-error" id="consentError"></span><button class="button button-primary submit-button" type="submit">Preview my interest <span>↗</span></button><p class="form-disclaimer">Please don't enter real contact details. The form is only for demonstrating front-end validation and confirmation states.</p></form><div id="formSuccess" class="form-success" hidden role="status"><span class="success-icon">✓</span><h3>Thanks for trying the demo.</h3><p>Your sample response was validated in this browser only. Nothing was sent or stored.</p><button type="button" class="button button-outline" id="closeSuccess">Back to campaigns</button></div></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
